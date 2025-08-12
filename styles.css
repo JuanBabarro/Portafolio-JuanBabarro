@@ -3407,3 +3407,138 @@ textarea:-webkit-autofill {
     }
 }
 
+@media (max-width: 768px) {
+  .navbar {
+    flex-direction: column;
+    height: auto;
+    padding: 10px;
+    gap: 10px;
+  }
+
+  .nav-center {
+    flex-wrap: wrap;
+    gap: 10px;
+  }
+
+  .section-content {
+    flex-direction: column;
+    height: auto;
+    padding: 20px;
+  }
+
+  .cuadros {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+  }
+
+  .bienvenida-unica {
+    top: 120px;
+    padding: 10px 20px;
+  }
+
+  .bienvenida-unica h1 {
+    font-size: 1.4rem;
+  }
+
+  .titulo-sobre {
+    font-size: 2rem;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .linea-decorativa-sobre {
+    width: 80%;
+  }
+}
+
+/* === Tablets: 769px - 1024px === */
+@media (max-width: 1024px) {
+  .section-content {
+    padding: 30px;
+    gap: 20px;
+    height: auto;
+  }
+
+  .cuadros {
+    grid-template-columns: repeat(3, 1fr);
+    gap: 40px;
+  }
+
+  .titulo-sobre {
+    font-size: 2.5rem;
+  }
+}
+
+/* === Escritorios grandes === */
+@media (min-width: 1025px) {
+  .section-content {
+    max-width: 1300px;
+    margin: auto;
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* === MIS PROYECTOS - Versión responsiva === */
+@media (max-width: 768px) {
+  /* Contenedor principal como grid de una sola columna */
+  #proyectos .container2 {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 20px;
+    justify-items: center;
+  }
+
+  /* Cada tarjeta de proyecto ocupa todo el ancho */
+  #proyectos .box {
+    width: 100%;
+    max-width: 100%;
+    min-height: auto;
+  }
+
+  /* Texto vertical se vuelve horizontal para móviles */
+  #proyectos .box-text-vertical-3,
+  #proyectos .box-text-vertical-e {
+    writing-mode: horizontal-tb;
+    transform: none;
+    font-size: 1.1rem;
+    text-align: center;
+    line-height: normal;
+  }
+
+  /* Iconos de tecnología más pequeños */
+  #proyectos .tech-icons img {
+    max-width: 40px;
+    height: auto;
+  }
+
+  /* Botones de footer ajustados */
+  #proyectos .project-footer-buttons {
+    flex-direction: column;
+    gap: 8px;
+    align-items: center;
+  }
+
+  #proyectos .btn-square {
+    width: 100%;
+    text-align: center;
+  }
+}
+
+
+.hiberber{
+    margin-top: 1px;
+    margin-right: 3px;
+}
