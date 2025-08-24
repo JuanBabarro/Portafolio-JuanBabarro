@@ -3,22 +3,38 @@
     padding: 0;
     box-sizing: border-box;
     z-index: 9999;
+<<<<<<< HEAD
   
+=======
+    /* muy por encima del navbar */
+>>>>>>> 179815360486a5bc18109d3f5744b758467a8a90
 }
 
 .trail-head {
     position: fixed;
+<<<<<<< HEAD
  
+=======
+    /* Esto asegura que se mueva con el viewport */
+>>>>>>> 179815360486a5bc18109d3f5744b758467a8a90
     top: 0;
     left: 0;
     width: 20px;
     height: 20px;
     background-color: red;
+<<<<<<< HEAD
    
     border-radius: 50%;
     pointer-events: none;
     z-index: 99999 !important;
    
+=======
+    /* O lo que uses */
+    border-radius: 50%;
+    pointer-events: none;
+    z-index: 99999 !important;
+    /* ¡MUY ALTO! */
+>>>>>>> 179815360486a5bc18109d3f5744b758467a8a90
 }
 
 
@@ -35,9 +51,12 @@ body {
     background-attachment: fixed;
     background-repeat: no-repeat;
     scrollbar-width: none;
+<<<<<<< HEAD
     background-position: center center;
     background-size: cover;
  
+=======
+>>>>>>> 179815360486a5bc18109d3f5744b758467a8a90
 
     -ms-overflow-style: none;
 
@@ -2222,7 +2241,11 @@ S .trail-head.click-effect {
 
 }
 
+<<<<<<< HEAD
 .b5 {
+=======
+.b5{
+>>>>>>> 179815360486a5bc18109d3f5744b758467a8a90
     background-image: url(proyec2.png);
     background-position: center;
     background-size: cover;
@@ -2230,7 +2253,10 @@ S .trail-head.click-effect {
     background-repeat: no-repeat;
 
 }
+<<<<<<< HEAD
 
+=======
+>>>>>>> 179815360486a5bc18109d3f5744b758467a8a90
 .b4 {
     background-image: url(Proyecto1.png);
     background-position: center;
@@ -3079,9 +3105,14 @@ S .trail-head.click-effect {
 .red-icon:hover .icon-tilted {
     transform: rotate(0deg) scale(1.2);
 }
+<<<<<<< HEAD
 
 .red-icon:hover i {
     color: rgb(255, 255, 255);
+=======
+.red-icon:hover i {
+    color: rgb(255, 255, 255); 
+>>>>>>> 179815360486a5bc18109d3f5744b758467a8a90
 }
 
 #contacto .contact-form input,
@@ -3413,6 +3444,7 @@ textarea:-webkit-autofill {
 }
 
 @media (max-width: 768px) {
+<<<<<<< HEAD
     .navbar {
         flex-direction: column;
         height: auto;
@@ -3454,10 +3486,54 @@ textarea:-webkit-autofill {
     .linea-decorativa-sobre {
         width: 80%;
     }
+=======
+  .navbar {
+    flex-direction: column;
+    height: auto;
+    padding: 10px;
+    gap: 10px;
+  }
+
+  .nav-center {
+    flex-wrap: wrap;
+    gap: 10px;
+  }
+
+  .section-content {
+    flex-direction: column;
+    height: auto;
+    padding: 20px;
+  }
+
+  .cuadros {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+  }
+
+  .bienvenida-unica {
+    top: 120px;
+    padding: 10px 20px;
+  }
+
+  .bienvenida-unica h1 {
+    font-size: 1.4rem;
+  }
+
+  .titulo-sobre {
+    font-size: 2rem;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .linea-decorativa-sobre {
+    width: 80%;
+  }
+>>>>>>> 179815360486a5bc18109d3f5744b758467a8a90
 }
 
 /* === Tablets: 769px - 1024px === */
 @media (max-width: 1024px) {
+<<<<<<< HEAD
     .section-content {
         padding: 30px;
         gap: 20px;
@@ -3472,14 +3548,37 @@ textarea:-webkit-autofill {
     .titulo-sobre {
         font-size: 2.5rem;
     }
+=======
+  .section-content {
+    padding: 30px;
+    gap: 20px;
+    height: auto;
+  }
+
+  .cuadros {
+    grid-template-columns: repeat(3, 1fr);
+    gap: 40px;
+  }
+
+  .titulo-sobre {
+    font-size: 2.5rem;
+  }
+>>>>>>> 179815360486a5bc18109d3f5744b758467a8a90
 }
 
 /* === Escritorios grandes === */
 @media (min-width: 1025px) {
+<<<<<<< HEAD
     .section-content {
         max-width: 1300px;
         margin: auto;
     }
+=======
+  .section-content {
+    max-width: 1300px;
+    margin: auto;
+  }
+>>>>>>> 179815360486a5bc18109d3f5744b758467a8a90
 }
 
 
@@ -3498,6 +3597,7 @@ textarea:-webkit-autofill {
 
 /* === MIS PROYECTOS - Versión responsiva === */
 @media (max-width: 768px) {
+<<<<<<< HEAD
 
     /* Contenedor principal como grid de una sola columna */
     #proyectos .container2 {
@@ -3563,4 +3663,54 @@ textarea:-webkit-autofill {
     font-size: 1.5rem;
     z-index: 9999;
     display: none;
+=======
+  /* Contenedor principal como grid de una sola columna */
+  #proyectos .container2 {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 20px;
+    justify-items: center;
+  }
+
+  /* Cada tarjeta de proyecto ocupa todo el ancho */
+  #proyectos .box {
+    width: 100%;
+    max-width: 100%;
+    min-height: auto;
+  }
+
+  /* Texto vertical se vuelve horizontal para móviles */
+  #proyectos .box-text-vertical-3,
+  #proyectos .box-text-vertical-e {
+    writing-mode: horizontal-tb;
+    transform: none;
+    font-size: 1.1rem;
+    text-align: center;
+    line-height: normal;
+  }
+
+  /* Iconos de tecnología más pequeños */
+  #proyectos .tech-icons img {
+    max-width: 40px;
+    height: auto;
+  }
+
+  /* Botones de footer ajustados */
+  #proyectos .project-footer-buttons {
+    flex-direction: column;
+    gap: 8px;
+    align-items: center;
+  }
+
+  #proyectos .btn-square {
+    width: 100%;
+    text-align: center;
+  }
+}
+
+
+.hiberber{
+    margin-top: 1px;
+    margin-right: 3px;
+>>>>>>> 179815360486a5bc18109d3f5744b758467a8a90
 }
